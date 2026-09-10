@@ -1,0 +1,21 @@
+/* 文章页增强样式：右侧栏吸附跟随 + 滚动高亮（article-ui.js 注入元素） */
+.widget-area{position:sticky;top:100px;max-height:calc(100vh - 120px);overflow:auto}
+.article-toc{background:var(--card,#fff);border:1px solid var(--border,rgba(148,163,184,.24));border-radius:12px;padding:16px 16px 14px;box-shadow:0 1px 4px rgba(15,35,80,.05)}
+.article-toc-title{font-size:13px;font-weight:700;letter-spacing:.04em;margin-bottom:10px;padding-bottom:8px;border-bottom:1px solid var(--border,rgba(148,163,184,.18));color:var(--text,#1c2433)}
+.article-toc ul{list-style:none;margin:0;padding:0}
+.article-toc li{margin:3px 0}
+.article-toc a{display:block;color:var(--muted,#5c6b80);text-decoration:none;font-size:13px;line-height:1.55;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;border-left:2px solid transparent;padding-left:8px;transition:color .15s,border-color .15s,background .15s}
+.article-toc a:hover{color:var(--accent,#1e6fff);border-left-color:var(--accent,#1e6fff)}
+.article-toc a.active{color:var(--accent,#1e6fff);border-left-color:var(--accent,#1e6fff);background:rgba(30,111,255,.08);font-weight:600}
+.article-toc .toc-l2{padding-left:2px}
+.article-toc .toc-l3{padding-left:16px}
+.article-toc .toc-l4{padding-left:30px}
+@media (max-width:768px){.article-toc{display:none}}
+/* 返回顶部按钮 */
+#back-top{position:fixed;right:24px;bottom:40px;width:44px;height:44px;border-radius:50%;background:var(--accent,#1e6fff);color:#fff;font-size:20px;line-height:1;border:none;cursor:pointer;box-shadow:0 4px 14px rgba(15,35,80,.28);opacity:0;visibility:hidden;transform:translateY(12px);transition:opacity .25s,transform .25s,visibility .25s;z-index:999}
+#back-top.show{opacity:1;visibility:visible;transform:translateY(0)}
+#back-top:hover{filter:brightness(1.12)}
+/* 后台导入 PDF 按钮 */
+.pdf-import{margin-top:12px}
+.pdf-import-btn{font-size:13px;padding:8px 14px;border-radius:8px;border:1px dashed var(--accent,#1e6fff);background:transparent;color:var(--accent,#1e6fff);cursor:pointer}
+.pdf-import-btn:hover{background:var(--accent,#1e6fff);color:#fff}

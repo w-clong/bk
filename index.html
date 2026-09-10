@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>我的博客</title>
+  <meta name="description" content="记录生活与思考">
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('blog-theme');
+        if (t !== 'dark' && t !== 'light') t = 'light';
+        document.documentElement.setAttribute('data-theme', t);
+      } catch (e) {
+        document.documentElement.setAttribute('data-theme', 'light');
+      }
+    })();
+  </script>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>▣</text></svg>">
+  <script src="/assets/pdf.min.js" defer></script>
+  <script src="/assets/article-ui.js" defer></script>
+  <script src="/assets/pdf-import.js" defer></script>
+  <script type="module" crossorigin src="/assets/index-XNRwtR7o.v3.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-B9Bj0nVL.css">
+  <link rel="stylesheet" crossorigin href="/assets/article-ui.css">
+</head>
+<body>
+  <div id="root"></div>
+</body>
+</html>

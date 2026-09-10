@@ -1,0 +1,6 @@
+{
+  "name": "blog",
+  "private": true,
+  "version": "1.0.0",
+  "description": "个人博客（Cloudflare Pages + Functions）"
+}

@@ -1,0 +1,1 @@
+import{l as e,r as t}from"./index-XNRwtR7o.v3.js";var n=t();function r(){return(0,n.jsx)(`div`,{className:`site-content`,children:(0,n.jsx)(`main`,{className:`content-area`,children:(0,n.jsxs)(`div`,{className:`empty-state`,children:[(0,n.jsx)(`h2`,{children:`页面不存在`}),(0,n.jsx)(`p`,{children:(0,n.jsx)(e,{to:`/`,children:`← 返回首页`})})]})})})}export{r as default};
