@@ -18,3 +18,4 @@
 .article-body .footnotes ol{margin:.6em 0 0;padding-left:1.5em}
 .article-body .footnotes li{margin:.4em 0}
 .article-body .footnotes .footnote-backref{margin-left:6px;text-decoration:none}
+.article-body table{border-collapse:collapse;display:block;max-width:100%;width:max-content;min-width:100%;overflow-x:auto;margin:1.2em 0;font-size:.95em;line-height:1.6}.article-body th,.article-body td{border:1px solid var(--line);padding:8px 12px;text-align:left;vertical-align:top}.article-body th{background:var(--chip-bg);color:var(--heading);font-weight:600}.article-body tr:nth-child(2n) td{background:var(--chip-bg)}
